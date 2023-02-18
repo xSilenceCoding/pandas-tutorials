@@ -206,16 +206,15 @@ nav li .star {
   flex: 1 auto;
 
   flex-direction: column;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+
   transition: var(--transition);
   -webkit-transition: var(--transition);
+
+  background-image: url("../../../assets/home/bg.jpg");
+  background-size: cover;
+  background-position: center center;
 }
-.title {
-  margin-top: 20px;
-}
+
 /* Scrollbar */
 nav::-webkit-scrollbar {
   width: 7px;
