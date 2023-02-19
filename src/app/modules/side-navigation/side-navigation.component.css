@@ -45,7 +45,7 @@ ul {
   color: white;
 }
 .logo span {
-  color: var(--color-main);
+  color: wheat;
 }
 .trigger ion-icon,
 nav a ion-icon:first-child {
@@ -104,7 +104,7 @@ nav li a span {
 }
 
 nav li a:hover,
-.collapse a span {
+.nested-collapse a span {
   color: white;
 }
 
@@ -123,7 +123,7 @@ nav li a:hover::before {
 
 nav :is(a:hover) ion-icon:first-child,
 .trigger a:hover ion-icon {
-  color: var(--color-main);
+  color: wheat;
 }
 
 nav li.small {
@@ -141,12 +141,12 @@ nav li.has-child ul {
   transition: all 0.2s ease-out;
 }
 
-nav li.collapse ul {
+nav li.nested-collapse ul {
   max-height: 100vh;
   opacity: 1;
   transform: all 0.5s ease-in;
 }
-nav li.collapse ion-icon:last-child {
+nav li.nested-collapse ion-icon:last-child {
   transform: rotate(-90deg);
   -webkit-transform: rotate(-90deg);
 }
@@ -200,7 +200,7 @@ nav li .star {
 }
 
 .main {
-  height: 100vh;
+  height: 100%;
   padding-left: 280px;
   display: flex;
   flex: 1 auto;
@@ -211,8 +211,14 @@ nav li .star {
   -webkit-transition: var(--transition);
 
   background-image: url("../../../assets/home/bg.jpg");
+  /* Set a specific height */
+  min-height: 100vh; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
   background-size: cover;
-  background-position: center center;
 }
 
 /* Scrollbar */

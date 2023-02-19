@@ -26,13 +26,65 @@ body {
   background-color: var(--bg);
 }
 
-.title {
-  margin-top: 80px;
-  color: black;
+
+
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-top: 1rem!important;
+  margin-top: 5rem;
+}
+h1.jumbo {
+  font-size: 3.5rem;
 }
 
-.activeRoute {
+p {
+  margin-bottom: 1.5rem;
+  margin-top: 0;
+  letter-spacing: 0.25px;
+  font-weight: 300;
+}
+
+.hero-img {
+  height: 350px;
+}
+
+.lecture-buttons {
+  margin-top: 2rem;
+}
+
+.lecture-buttons button {
+  margin-right: 0.5rem;
+}
+
+
+
+.kicker {
+  text-transform: uppercase;
+  color: green;
+  font-weight: 400;
+  font-size: 0.85rem !important;
+  letter-spacing: 1px;
+  margin-bottom: 0.75rem;
+  font-family: monospace;
+}
+
+.title {
+  margin-bottom: 1rem;
+}
+
+.activeRoute ion-icon {
   color: wheat !important;
+}
+
+.activeRoute  {
+  color: white !important;
+}
+
+.activeRoute ion-icon:last-child  {
+  color: white !important;
 }
 
 .zoomIn {

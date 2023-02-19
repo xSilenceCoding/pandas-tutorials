@@ -32,7 +32,7 @@ export class SideNavigationComponent implements OnInit {
     const hasChildDivs = document.querySelectorAll('.has-child');
     hasChildDivs.forEach((div: any) => {
       div.addEventListener('click', () => {
-        div.classList.toggle('collapse');
+        div.classList.toggle('nested-collapse');
       });
     });
   }

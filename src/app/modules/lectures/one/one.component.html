@@ -1,1 +1,297 @@
-<p>one works!</p>
+<div class="container">
+  <div class="row">
+    <div class="col-sm-6">
+      <p class="kicker" style="color: green">Aufgaben</p>
+      <h1 class="jumbo">Lektion 1.</h1>
+      <p>
+        "Bitte löse die folgende Aufgabe unter Verwendung des Dataframes
+        <span style="color: green; font-weight: 400">df</span>"
+      </p>
+    </div>
+  </div>
+
+
+
+
+</div>  <div class="container">
+
+  <div class="accordion" id="accordionExample">
+    <div class="card">
+      <div class="card-header" id="heading1">
+        <h2 class="mb-0">
+          <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#aufgabe1" aria-expanded="true" aria-controls="aufgabe1">
+            Aufgabe 1
+          </button>
+        </h2>
+      </div>
+  
+      <div id="aufgabe1" class="collapse show" aria-labelledby="heading1" data-parent="#accordionExample">
+        <div class="card-body">
+          Gib alle Daten der Tabelle 'cia' aus.
+          <div class="form-group mt-3">
+            <label for="exampleFormControlTextarea1">Pandas Syntax</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          </div>
+          <hr>
+        <div class="lecture-buttons">
+        <button type="button" class="btn btn-success" (click)="helpTaskOne()">Hilfe</button>
+        <button type="button" class="btn btn-dark">Abschicken</button>
+        </div>
+      </div>
+    </div>
+    
+    <div class="card">
+      <div class="card-header" id="heading2">
+        <h2 class="mb-0">
+          <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#aufgabe2" aria-expanded="false" aria-controls="aufgabe2">
+            Aufgabe 2
+          </button>
+        </h2>
+      </div>
+      <div id="aufgabe2" class="collapse" aria-labelledby="heading2" data-parent="#accordionExample">
+        <div class="card-body">
+          Gib die Namen aller Länder aus.
+          <div class="form-group mt-3">
+            <label for="exampleFormControlTextarea1">Pandas Syntax</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          </div>
+          <hr>
+        <div class="lecture-buttons">
+        <button type="button" class="btn btn-success" (click)="helpTaskTwo()">Hilfe</button>
+        <button type="button" class="btn btn-dark">Abschicken</button>
+        </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-header" id="heading3">
+        <h2 class="mb-0">
+          <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#aufgabe3" aria-expanded="false" aria-controls="aufgabe3">
+            Aufgabe 3
+          </button>
+        </h2>
+      </div>
+      <div id="aufgabe3" class="collapse" aria-labelledby="heading3" data-parent="#accordionExample">
+        <div class="card-body">
+          Gib alle Länder an, die mehr als 100 Millionen (1E08) Einwohner haben.
+          <div class="form-group mt-3">
+            <label for="exampleFormControlTextarea1">Pandas Syntax</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          </div>
+          <hr>
+        <div class="lecture-buttons">
+        <button type="button" class="btn btn-success" (click)="helpTaskThree()">Hilfe</button>
+        <button type="button" class="btn btn-dark">Abschicken</button>
+        </div>
+        </div>
+      </div>
+    </div>
+
+
+    
+    <div class="card">
+      <div class="card-header" id="heading4">
+        <h2 class="mb-0">
+          <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#aufgabe4" aria-expanded="false" aria-controls="aufgabe4">
+            Aufgabe 4
+          </button>
+        </h2>
+      </div>
+      <div id="aufgabe4" class="collapse" aria-labelledby="heading4" data-parent="#accordionExample">
+        <div class="card-body">
+          Gib die Länder an, die ein Bruttosozialprodukt (BIP) zwischen 1 und 100 Milliarden haben und in Asien liegen. 
+          <div class="form-group mt-3">
+            <label for="exampleFormControlTextarea1">Pandas Syntax</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          </div>
+          <hr>
+        <div class="lecture-buttons">
+        <button type="button" class="btn btn-success" (click)="helpTaskFour()">Hilfe</button>
+        <button type="button" class="btn btn-dark">Abschicken</button>
+        </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="card">
+      <div class="card-header" id="heading5">
+        <h2 class="mb-0">
+          <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#aufgabe5" aria-expanded="false" aria-controls="aufgabe5">
+            Aufgabe 5
+          </button>
+        </h2>
+      </div>
+      <div id="aufgabe5" class="collapse" aria-labelledby="heading5" data-parent="#accordionExample">
+        <div class="card-body">
+          Gib die Einwohnerzahlen für Frankreich, Deutschland und Polen aus.
+          <div class="form-group mt-3">
+            <label for="exampleFormControlTextarea1">Pandas Syntax</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          </div>
+          <hr>
+        <div class="lecture-buttons">
+        <button type="button" class="btn btn-success" (click)="helpTaskFive()">Hilfe</button>
+        <button type="button" class="btn btn-dark">Abschicken</button>
+        </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-header" id="heading6">
+        <h2 class="mb-0">
+          <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#aufgabe6" aria-expanded="false" aria-controls="aufgabe6">
+            Aufgabe 6
+          </button>
+        </h2>
+      </div>
+      <div id="aufgabe6" class="collapse" aria-labelledby="heading6" data-parent="#accordionExample">
+        <div class="card-body">
+          Zeige Name und Einwohnerzahl in Millionen für die Länder Südamerikas. 
+          <div class="form-group mt-3">
+            <label for="exampleFormControlTextarea1">Pandas Syntax</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          </div>
+          <hr>
+        <div class="lecture-buttons">
+        <button type="button" class="btn btn-success" (click)="helpTaskSix()">Hilfe</button>
+        <button type="button" class="btn btn-dark">Abschicken</button>
+        </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-header" id="heading7">
+        <h2 class="mb-0">
+          <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#aufgabe7" aria-expanded="false" aria-controls="aufgabe7">
+            Aufgabe 7
+          </button>
+        </h2>
+      </div>
+      <div id="aufgabe7" class="collapse" aria-labelledby="heading7" data-parent="#accordionExample">
+        <div class="card-body">
+          Gib die Namen und das pro Kopf-Jahreseinkommen der Länder mit mehr als 200 Millionen Einwohnern aus.
+          <div class="form-group mt-3">
+            <label for="exampleFormControlTextarea1">Pandas Syntax</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          </div>
+          <hr>
+        <div class="lecture-buttons">
+        <button type="button" class="btn btn-success" (click)="helpTaskSeven()">Hilfe</button>
+        <button type="button" class="btn btn-dark">Abschicken</button>
+        </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="card">
+      <div class="card-header" id="heading8">
+        <h2 class="mb-0">
+          <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#aufgabe8" aria-expanded="false" aria-controls="aufgabe8">
+            Aufgabe 8
+          </button>
+        </h2>
+      </div>
+      <div id="aufgabe8" class="collapse" aria-labelledby="heading8" data-parent="#accordionExample">
+        <div class="card-body">
+          Wie vorherige Aufgabe, allerdings sollen die Ergebnisse absteigend nach dem pro Kopf Jahreseinkommen sortiert werden. 
+          <div class="form-group mt-3">
+            <label for="exampleFormControlTextarea1">Pandas Syntax</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          </div>
+          <hr>
+        <div class="lecture-buttons">
+        <button type="button" class="btn btn-success" (click)="helpTaskEight()">Hilfe</button>
+        <button type="button" class="btn btn-dark">Abschicken</button>
+        </div>
+        </div>
+      </div>
+    </div>
+
+
+
+    <div class="card">
+      <div class="card-header" id="heading9">
+        <h2 class="mb-0">
+          <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#aufgabe9" aria-expanded="false" aria-controls="aufgabe9">
+            Aufgabe 9
+          </button>
+        </h2>
+      </div>
+      <div id="aufgabe9" class="collapse" aria-labelledby="heading9" data-parent="#accordionExample">
+        <div class="card-body">
+          In welchen Ländernamen kommt das Wort 'Vereinigte' vor? 
+          <div class="form-group mt-3">
+            <label for="exampleFormControlTextarea1">Pandas Syntax</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          </div>
+          <hr>
+        <div class="lecture-buttons">
+        <button type="button" class="btn btn-success" (click)="helpTaskNine()">Hilfe</button>
+        <button type="button" class="btn btn-dark">Abschicken</button>
+        </div>
+        </div>
+      </div>
+    </div>
+
+
+
+    <div class="card">
+      <div class="card-header" id="heading10">
+        <h2 class="mb-0">
+          <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#aufgabe10" aria-expanded="false" aria-controls="aufgabe10">
+            Aufgabe 10
+          </button>
+        </h2>
+      </div>
+      <div id="aufgabe10" class="collapse" aria-labelledby="heading10" data-parent="#accordionExample">
+        <div class="card-body">
+          Lasse Dir in alphabetischer Reihenfolge alle verschiedenen Regionen anzeigen.
+          <div class="form-group mt-3">
+            <label for="exampleFormControlTextarea1">Pandas Syntax</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          </div>
+          <hr>
+        <div class="lecture-buttons">
+        <button type="button" class="btn btn-success" (click)="helpTaskTen()">Hilfe</button>
+        <button type="button" class="btn btn-dark">Abschicken</button>
+        </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-header" id="heading11">
+        <h2 class="mb-0">
+          <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#aufgabe11" aria-expanded="false" aria-controls="aufgabe11">
+            Aufgabe 11
+          </button>
+        </h2>
+      </div>
+      <div id="aufgabe11" class="collapse" aria-labelledby="heading11" data-parent="#accordionExample">
+        <div class="card-body">
+          Zeige alle Länder, bei denen das Bruttoinlandsprodukt unbekannt ist.
+          <div class="form-group mt-3">
+            <label for="exampleFormControlTextarea1">Pandas Syntax</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          </div>
+          <hr>
+        <div class="lecture-buttons">
+        <button type="button" class="btn btn-success" (click)="helpTaskEleven()">Hilfe</button>
+        <button type="button" class="btn btn-dark">Abschicken</button>
+        </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+  </div>
+  </div>

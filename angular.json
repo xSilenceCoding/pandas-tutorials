@@ -122,5 +122,8 @@
       }
     }
   },
-  "defaultProject": "pandas-lectures"
+  "defaultProject": "pandas-lectures",
+  "cli": {
+    "analytics": false
+  }
 }

@@ -82,6 +82,10 @@ import { LecturesComponent } from './modules/lectures/lectures.component';
 import { OneComponent } from './modules/lectures/one/one.component';
 import { AboutMeComponent } from './modules/about-me/about-me.component';
 import { MaintainComponent } from './modules/lectures/maintain/maintain.component';
+import { FooterComponent } from './modules/footer/footer.component';
+import { DataService } from './services/data.service';
+import { HelperComponent } from './modules/lectures/helper/helper.component';
+import { ResultComponent } from './modules/lectures/result/result.component';
 
 @NgModule({
   declarations: [
@@ -95,6 +99,9 @@ import { MaintainComponent } from './modules/lectures/maintain/maintain.componen
     OneComponent,
     AboutMeComponent,
     MaintainComponent,
+    FooterComponent,
+    HelperComponent,
+    ResultComponent,
   ],
   imports: [
     BrowserModule,
@@ -102,7 +109,7 @@ import { MaintainComponent } from './modules/lectures/maintain/maintain.componen
     BrowserAnimationsModule,
     matComponents,
   ],
-  providers: [],
+  providers: [DataService],
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
   bootstrap: [AppComponent],
 })
